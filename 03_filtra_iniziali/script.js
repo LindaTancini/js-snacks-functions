@@ -11,6 +11,17 @@ function getNamesLetter(array, letter) {
   return result;
 }
 
+// CON ARROW FUNCTION
+
+/* const getNamesLetter = (array, letter) => {
+    let result = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].startsWith(letter)) result.push(array[i]);
+  }
+  return result;
+    }
+*/
+
 // Invoca la funzione qui e stampa il risultato in console
 const result = getNamesLetter(names, "A");
 console.log(result);
