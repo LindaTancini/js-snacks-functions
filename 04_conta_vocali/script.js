@@ -14,7 +14,18 @@ function countVocali(letter) {
   return count;
 }
 
-//metodo includes
+// CON ARROW FUNCTION
+
+/* const countVocali = (letter) => {
+    const vocali = "aeiou";
+  let count = 0;
+  for (let i = 0; i < letter.length; i++) {
+    if (vocali.indexOf(word[i]) !== -1) count++;
+    
+  }
+  return count;}
+
+*/
 
 // Invoca la funzione qui e stampa il risultato in console
 const count = countVocali(word);
