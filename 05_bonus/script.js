@@ -9,10 +9,20 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function sayHi() {
+    const hours =
 
+    let greeting;
+    if (hours < 13) {
+        greeting = "Buongiorno";
+    } else if (hours < 17) {
+        greeting = "Buon Pomeriggio"
+    } else {
+        greeting = "Buonasera"
+    }
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
