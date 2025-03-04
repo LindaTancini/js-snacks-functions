@@ -8,7 +8,7 @@ e buonasera se è sera (oltre le 17)
 const name = "Mario";
 
 // Dichiara la funzione qui.
-function sayHi(name) {
+function sayHi(input) {
   const hours = new Date("03-03-2025IT18:00:00");
 
   let greeting;
@@ -19,7 +19,7 @@ function sayHi(name) {
   } else {
     greeting = "Buonasera";
   }
-  return `${greeting} ${name}.`;
+  return `${greeting} ${input}.`;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
