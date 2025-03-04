@@ -3,20 +3,26 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
-function initial(array) {
+function initial(arr) {
   let newInitial = [];
-  for (let i = 0; i < array.length; i++) {
-    newInitial.push(array[i].charAt(0));
+  for (let i = 0; i < arr.length; i++) {
+    newInitial.push(arr[i].charAt(0));
   }
   return newInitial;
 }
 
+// CON MAP
+/* function initial(arr) {
+  return arr.map(word => word.charAt(0));
+}
+*/
+
 // CON ARROW FUNCTION
 
-/* const initial = (array) => {
+/* const initial = (arr) => {
   let newInitial = [];
-  for (let i = 0; i < array.length; i++) {
-    newInitial.push(array[i].charAt(0));
+  for (let i = 0; i < arr.length; i++) {
+    newInitial.push(arr[i].charAt(0));
   }
   return newInitial;
   }
