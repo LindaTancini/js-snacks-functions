@@ -13,7 +13,7 @@ function initial(arr) {
 
 // CON MAP
 /* function initial(arr) {
-  return arr.map(word => word.charAt(0));
+  return arr.map(name => name.charAt(0));
 }
 */
 
