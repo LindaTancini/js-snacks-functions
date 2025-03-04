@@ -3,17 +3,23 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
-function getNamesLetter(array, letter) {
+function getNamesLetter(arr, letter) {
   let result = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i].startsWith(letter)) result.push(array[i]);
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].startsWith(letter)) result.push(arr[i]);
   }
   return result;
 }
 
+// CON FILTER
+/* function getNamesLetter(arr, letter) {
+  return arr.filter(name => name.startsWith(letter));
+}
+
+
 // CON ARROW FUNCTION
 
-/* const getNamesLetter = (array, letter) => {
+ const getNamesLetter = (array, letter) => {
     let result = [];
   for (let i = 0; i < array.length; i++) {
     if (array[i].startsWith(letter)) result.push(array[i]);
